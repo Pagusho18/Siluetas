@@ -14,6 +14,7 @@
     limitations under the License.
     -->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
@@ -23,5 +24,11 @@
       android:scaleType="center"
       android:layout_width="fill_parent"
       android:layout_height="fill_parent"/>
+
+  <ImageView
+      android:id="@+id/imageView"
+      android:layout_width="149dp"
+      android:layout_height="165dp"
+      app:srcCompat="@drawable/action" />
 
 </RelativeLayout>
